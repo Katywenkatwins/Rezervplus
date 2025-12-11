@@ -1,9 +1,9 @@
 {
   "name": "Резерв ID",
   "short_name": "Резерв",
-  "start_url": "/Rezervplus/",
+  "start_url": "/Rezervplus/assets/",
   "id": "/Rezervplus/assets/",
-  "scope": "/Rezervplus/",
+  "scope": "/Rezervplus/assets/",
   "display": "standalone",
   "background_color": "#e0dfcb",
   "theme_color": "#e0dfcb",
