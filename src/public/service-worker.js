@@ -1,5 +1,5 @@
 const CACHE_NAME = 'rezerv-id-v1';
-const BASE_PATH = '/Rezerv';
+const BASE_PATH = '/Rezervplus';
 const urlsToCache = [
   `${BASE_PATH}/`,
   `${BASE_PATH}/index.html`
