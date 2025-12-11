@@ -1,4 +1,5 @@
-import { defineConfig } from 'vite';
+
+  import { defineConfig } from 'vite';
   import react from '@vitejs/plugin-react-swc';
   import path from 'path';
 
@@ -49,20 +50,12 @@ import { defineConfig } from 'vite';
         '@': path.resolve(__dirname, './src'),
       },
     },
-   
-  base: '/Rezervplus/',
-  build: {
-    outDir: 'dist',
-    assetsDir: 'assets',
-    sourcemap: false,
-    minify: 'terser',
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
-      },
+    build: {
+      target: 'esnext',
+      outDir: 'build',
     },
-  },
-  server: {
-    port: 3000,
-  },
-});
+    server: {
+      port: 3000,
+      open: true,
+    },
+  });
