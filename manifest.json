@@ -2,6 +2,7 @@
   "name": "Резерв ID",
   "short_name": "Резерв",
   "start_url": "./",
+  "id": "/Rezervplus/assets/",
   "scope": "./",
   "display": "standalone",
   "background_color": "#e0dfcb",
