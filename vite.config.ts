@@ -53,7 +53,7 @@
     base: '/Rezervplus/', 
     build: {
     outDir: 'dist',     
-}
+},
 
     server: {
       port: 3000,
