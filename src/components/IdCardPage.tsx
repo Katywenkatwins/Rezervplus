@@ -44,7 +44,7 @@ export function IdCardPage() {
       </div>
 
       {/* ID Card */}
-      <div className="mt-[50px] w-full max-w-[347px] mx-auto">
+      <div className="mt-[80px] w-full max-w-[347px] mx-auto">
         <IdCard 
           userData={userData}
           onPlusClick={() => setShowMenu(true)}
