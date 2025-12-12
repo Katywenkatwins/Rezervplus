@@ -251,10 +251,11 @@ export function IdCard({ userData, onPlusClick, onPhotoChange }: IdCardProps) {
             </p>
             <div className="w-[340px] h-[340px] bg-white flex items-center justify-center">
               <img
-                src="https://raw.githubusercontent.com/Katywenkatwins/-/blob/main/image%206.png"
+                src="https://raw.githubusercontent.com/Katywenkatwins/-/main/image%206.png"
                 alt="QR Code"
                 className="w-full h-full object-cover px-[9px] py-[0px]"
               />
+            
             </div>
           </div>
         </motion.div>
