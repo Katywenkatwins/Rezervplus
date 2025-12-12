@@ -35,7 +35,7 @@ export function IdCard({ userData, onPlusClick, onPhotoChange }: IdCardProps) {
   };
 
   return (
-    <div className="perspective-[1000px] w-[347px] h-[490px]  mr-[0px] mb-[0px] ml-[0px]">
+    <div className="perspective-[1000px] w-[347px] h-[490px] mt-[80px] mr-[0px] mb-[0px] ml-[0px]">
       <motion.div
         className="relative w-full h-full"
         style={{ transformStyle: 'preserve-3d' }}
